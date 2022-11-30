@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: white;
+}
+.box{
+    height: 100vh;
+}
+
+.upper-box{
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 2;
+background: transparent !important;
+top: 0;
+bottom: 0;
+
+}
+.inside-box{
+    background: rgba(255, 255, 255, 0.9);
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    display: flex;
+}
+.white-box{
+    flex: 1 1  50%;
+    background: transparent;
+}
+/* lefte side  */
+.inside-left-box-1{
+    height: 10%;
+    font-weight: bold;
+    color: blue;
+}
+
+.square-box{
+    height: 30px;
+    width: 30px;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to rgb(4, 4, 84),indigo,rgb(172, 2, 172));
+}
+.title{
+    color: linear-gradient(450deg, rgb(9, 4, 77), rgb(181, 3, 201) );
+    font-weight: bold;
+}
+.inside-left-box-2{
+    height: 60%;
+    width: 100%;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='100' height='100' preserveAspectRatio='none' viewBox='0 0 100 100'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1076%26quot%3b)' fill='none'%3e%3crect width='100' height='100' x='0' y='0' fill='url(%23SvgjsLinearGradient1077)'%3e%3c/rect%3e%3cpath d='M50 134.35C71.22 134.12 88.45 118.34 102.05 102.05 114.33 87.37 121.09 69.14 120.41 50 119.77 31.54 111 15.08 98.52 1.48 85.36-12.87 69.38-25 50-26.87 28.78-28.91 5.26-24.83-8.82-8.82-22.42 6.65-18.68 29.43-17.63 50-16.67 69.07-15.11 88.25-3.18 103.18 10.19 119.84 28.65 134.59 50 134.35' fill='rgba(253%2c 253%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M50 104.58C63.73 104.43 74.88 94.22 83.68 83.68 91.62 74.18 96 62.39 95.56 50 95.14 38.05 89.47 27.41 81.39 18.61 72.88 9.32 62.54 1.47 50 0.26 36.27-1.06 21.05 1.58 11.94 11.94 3.14 21.95 5.56 36.69 6.24 50 6.86 62.34 7.87 74.75 15.59 84.41 24.24 95.19 36.18 104.74 50 104.58' fill='rgba(194%2c 194%2c 195%2c 1)'%3e%3c/path%3e%3cpath d='M50 74.81C56.24 74.74 61.31 70.1 65.31 65.31 68.92 60.99 70.91 55.63 70.71 50 70.52 44.57 67.94 39.73 64.27 35.73 60.4 31.51 55.7 27.94 50 27.39 43.76 26.79 36.84 27.99 32.7 32.7 28.7 37.25 29.8 43.95 30.11 50 30.39 55.61 30.85 61.25 34.36 65.64 38.29 70.54 43.72 74.88 50 74.81' fill='rgba(0%2c 25%2c 255%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1076'%3e%3crect width='100' height='100' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='0%25' x2='100%25' y2='100%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1077'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(255%2c 255%2c 255%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+     background-size: cover; 
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.small-box{
+    border-radius: 15px;
+    width: 60%;
+
+    
+}
+.circle{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    border: 1rem solid  blueviolet
+}
+.smallest-box{
+    background: white;
+    border: 2px solid rgba(238, 238, 238, 0.867);
+    margin-bottom: 5px;
+    width: 100%;
+    height: 100px;
+    border-radius: 1rem;
+    align-items: center;
+}
+.inside-left-box-3{
+    flex: 0 1 10%;
+}
+.circle-inside{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background: linear-gradient(450deg, rgb(9, 4, 77), rgb(181, 3, 201) );
+}
+h5{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.inside-left-box-3 .line{
+    height: 5px;
+    width: 20%;
+    border-radius: 2px;
+}
+/* right side */
+.form{
+    background: rgba(158, 157, 157, 0.938);
+    border-radius: 1rem;
+    width: 60%;
+    
+}
+.social-media a{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: .2rem;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+}
+
